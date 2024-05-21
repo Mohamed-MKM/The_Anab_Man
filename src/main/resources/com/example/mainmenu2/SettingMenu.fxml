@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainmenu2.HelloController">
+   <children>
+      <ImageView fitHeight="948.0" fitWidth="1510.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Main_Menu1.jpg" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Button fx:id="Start" layoutX="992.0" layoutY="455.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="207.0" text="Start" />
+      <ImageView fitHeight="250.0" fitWidth="500.0" layoutX="861.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Play.png" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Button fx:id="Settings" layoutX="1017.0" layoutY="625.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" text="Settings" />
+      <ImageView fitHeight="138.0" fitWidth="253.0" layoutX="969.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Settings.png" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Button fx:id="Quit2" layoutX="1053.0" layoutY="759.0" mnemonicParsing="false" onAction="#QuitF" prefHeight="30.0" prefWidth="88.0" text="Quit">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <ImageView disable="true" fitHeight="150.0" fitWidth="200.0" layoutX="997.0" layoutY="721.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Quit.png" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="573.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="810.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+
+         </image>
+      </ImageView>
+      <ImageView fitHeight="860.0" fitWidth="1091.0" layoutX="143.0" layoutY="-16.0">
+         <image>
+            <Image url="@Screenshot_2024-05-08_220813-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="605.0" layoutY="184.0" text="Settings" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="100.0" />
+         </font>
+      </Label>
+      <Slider layoutX="755.0" layoutY="395.0" prefHeight="35.0" prefWidth="273.0" showTickLabels="true" showTickMarks="true" />
+      <Label layoutX="541.0" layoutY="369.0" text="Sound" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="40.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="503.0" layoutY="479.0" prefHeight="84.0" prefWidth="264.0" style="-fx-control-inner-background: rgba(72,6,7,255); -fx-background-color: transparent; -fx-background-insets: 0; -fx-background-radius: 0;" text="this project is presented to:&#10;Dr.Hitham Mohamed">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font></TextArea>
+      <TextArea editable="false" layoutX="773.0" layoutY="473.0" prefHeight="227.0" prefWidth="351.0" style="-fx-control-inner-background: rgba(72,6,7,255); -fx-background-color: transparent; -fx-background-insets: 0; -fx-background-radius: 0;" text="presented by:&#10;محمد غريب محمد الأحمدي (Team leader)     &#10;ساهر ايمن منير علي                                         &#10;محمد مصطفي خليفة مصطفي                       &#10;محمود خالد فتحي بنداري                                  &#10;عمر طارق علي موسى                                      &#10;دنيا عصام فتحي احمد                                       &#10;خلود وليد عطيه                                                &#10;هاجر عبد العظيم سليمان عبدالعظيم                &#10;تسنيم امين جميل امين                                     ">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </TextArea>
+      <StackPane layoutX="473.0" layoutY="601.0" prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="BackToMenu" mnemonicParsing="false" onAction="#BacktoMenu" prefHeight="28.0" prefWidth="103.0" text="Back to main menu" textFill="#330606" />
+            <ImageView disable="true" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Menu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainmenu2.HelloController">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Main_Menu1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Start" layoutX="982.0" layoutY="445.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="207.0" text="Start" />
+      <ImageView fitHeight="250.0" fitWidth="500.0" layoutX="851.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Play.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
